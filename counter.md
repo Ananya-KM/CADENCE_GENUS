@@ -15,3 +15,6 @@ Cadence is a premier electronic design automation (EDA) software suite, crucial 
 
 </p> In a 4-bit up/down counter using JK flip-flops, the flip-flops work together to count in binary, either up or down. The direction of counting is controlled by an up/down input signal. Depending on this signal, the flip-flops adjust their inputs to either increase or decrease the count with each clock pulse. </p>
 
+# SIMULATION
+Commands used:
+in the terminal
