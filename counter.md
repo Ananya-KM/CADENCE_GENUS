@@ -1,4 +1,4 @@
-# 4-BIT UP-DOWN COUNTER USING CADENCE GENUS
+# 4-BIT UP-DOWN COUNTER USING CADENCE_GENUS
 ## ABOUT CADENCE
 Cadence is a premier electronic design automation (EDA) software suite, crucial for designing, analyzing, and verifying complex integrated circuits (ICs) and printed circuit boards (PCBs). The suite offers specialized tools like "Virtuoso", which is widely used for analog and mixed-signal design, allowing engineers to create and simulate intricate circuit layouts. "Allegro" focuses on PCB design, enabling the efficient creation of multilayer boards and ensuring signal integrity across high-speed connections. "Innovus" handles digital implementation, providing advanced features for place-and-route, timing closure, and power optimization in large-scale digital designs. "Genus" supports logic synthesis, transforming high-level descriptions into optimized gate-level representations. Cadence's tools are integral to industries like semiconductors, automotive, and aerospace, where precision and reliability in electronic design are paramount. These tools help companies accelerate product development cycles, enhance design accuracy, and meet the demands of increasingly complex electronic systems.
 
@@ -16,16 +16,16 @@ Cadence is a premier electronic design automation (EDA) software suite, crucial 
 </p> In a 4-bit up/down counter using JK flip-flops, the flip-flops work together to count in binary, either up or down. The direction of counting is controlled by an up/down input signal. Depending on this signal, the flip-flops adjust their inputs to either increase or decrease the count with each clock pulse. </p>
 
 ## SIMULATION
-##### **Commands used:
+#####  Commands used:
     csh
     source /home/install/cshrc
  
 ##### Welcome to Cadence suite window" pops up.
-##### **Write the code using
+##### Write the code using
      geddit filename.v 
-##### **Write the test bench using
+#####  Write the test bench using
      geddit filename_tb.v
-##### **For Simulation output
+#####  For Simulation output
      irun filename.v filename_tb.v +access+rwc -gui
 
 
