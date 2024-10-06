@@ -29,4 +29,17 @@ Cadence is a premier electronic design automation (EDA) software suite, crucial 
      irun filename.v filename_tb.v +access+rwc -gui
 
 
+
+## SYNTHESIS
+#### Commands used:
+##### in the terminal
+    csh
+    source /home/install/cshrc
+    genus
+    set_db init_lib_search_path home/install/FOUNDARY/digital/90nm/dig/lib
+##### select the file path
+
+
+
+
     
