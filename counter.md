@@ -9,6 +9,7 @@ Cadence is a premier electronic design automation (EDA) software suite, crucial 
 </p> Digital counters have evolved alongside early computing technology, with the JK flip-flop playing a crucial role in counter design. Over time, counters became more advanced, adding the ability to count both up and down. The 4-bit up-down counter became a standard due to its flexibility and reliability, making it a fundamental component in various digital applications. </p>
 
 ## **Logic diagram**
+![Screenshot (143)](https://github.com/user-attachments/assets/eaafa830-9769-4673-9317-ef59f68b5344)
 
 
  </p> A JK flip-flop is a type of digital circuit that can store one bit of information and change its state based on the inputs. It has two inputs, labeled J and K, and one output. When both inputs are high, the output switches or toggles its state from 0 to 1 or 1 to 0. This makes it useful in circuits that need to remember or change states. </p>
@@ -27,7 +28,9 @@ Cadence is a premier electronic design automation (EDA) software suite, crucial 
      geddit filename_tb.v
 ####  For Simulation output
      irun filename.v filename_tb.v +access+rwc -gui
-
+![Screenshot (144)](https://github.com/user-attachments/assets/5da5884b-94f9-4684-b3e3-ce4f773e34a4)
+![Screenshot (145)](https://github.com/user-attachments/assets/39a7e6df-98f7-446c-99ff-80d3b6153a5c)
+![Screenshot (146)](https://github.com/user-attachments/assets/50aa195f-c0d4-4abc-919a-21aab96aac7d)
 
 
 ## **SYNTHESIS**
@@ -54,16 +57,25 @@ Cadence is a premier electronic design automation (EDA) software suite, crucial 
     report_timing -unconstrained > time.rpt 
 ####  For Synthesis output
        gui_show
+ ![Screenshot (147)](https://github.com/user-attachments/assets/488f528e-e00f-43f2-aa85-b3bbc498a8f0)
+
 
 ### **Reports**
 </p> 1.Area Report </p>
 
+![Screenshot (148)](https://github.com/user-attachments/assets/e1c07352-0fa0-4e53-8d70-7ebf1d11bc48)
+
 </p> 2.Gate Report </p>
+
+![Screenshot (149)](https://github.com/user-attachments/assets/b7ee2493-58e7-4306-9246-120f495f4e07)
 
 </p> 3.Power Report </p>
 
+![Screenshot (150)](https://github.com/user-attachments/assets/4fb9453a-d8a7-4ca4-98ff-a31212fc7871)
+
 </p> 4.Timing Report </p>
 
+![Screenshot (151)](https://github.com/user-attachments/assets/82ff025e-e331-417c-a3e8-6e631b3e7d0b)
 
 ## **Applications:**
 </p> A 4-bit up-down counter is highly versatile and finds use in various digital electronics applications:</p>
