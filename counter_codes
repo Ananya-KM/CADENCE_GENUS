@@ -1,4 +1,4 @@
-## COUNTER.v 
+# COUNTER.v 
 
 
   module up_down_counter (
